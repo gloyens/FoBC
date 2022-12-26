@@ -41,5 +41,12 @@
   font-style: italic;
   line-height: 28px;
   color: #999;
+  margin: auto;
   margin-bottom: 50px;
+  max-width: 500px;
+}
+
+.header h3 a {
+  color: #ff857a;
+  font-weight: 500;
 }

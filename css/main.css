@@ -74,3 +74,10 @@ p {
   color: white;
   text-decoration: none;
 }
+
+/* FORMS */
+
+.google-form {
+  margin: 0 auto;
+  width: 640px;
+}
