@@ -2,6 +2,7 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: black;
 }
 
 html { scroll-behavior:smooth }
@@ -39,6 +40,19 @@ p {
 
 .section-container {
   padding: 36px 0;
+}
+
+.doc-container {
+  margin-top: -664px;
+  margin-bottom: 128px;
+}
+
+.doc-item {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 16px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
 }
 
 .card-main {
