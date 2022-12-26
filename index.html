@@ -6,39 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Friends of Branksome Chine</title>
 
-  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/header.css">
+
+  <script src="js/main.js"></script>
 </head>
 
 <body>
-  <div class="header-img">
-    <div class="header-text">
-      <h1>Friends of Branksome Chine</h1>
-      <h3>Tagline</h3>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo.png" alt="logo" width="32" height="32">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/document.html">Documents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-button nav-link" href="#get-involved">Get involved!</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <div class="header">
+    <div class="section-container">
+      <h1>Friends of Branksome Chine</h1>
+      <h3>A volunteer-led organization working to preserve and enhance the Branksome Chine area through planting and landscaping projects, wildlife conservation efforts, and community events.</h3>
+      <a href="#get-involved" class="button-main">Get involved!</a>
+    </div>
+    <img src="img/header.jpg" alt="logo" id="header-img">
   </div>
 
   <div class="margin-container">
-    <img src="img/logo.png" alt="logo" style="width: 128px">
-
-    <div class="section-container">
-      <p>Enter your email to receive progress updates:</p>
-      <a href="#get-involved">Get involved!</a>
-    </div>
-
     <div class="section-container">
       <h2>About</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque magna quam, tincidunt vel lacinia a, mattis nec mi. Aenean tellus ligula, tincidunt eu eros ac, hendrerit efficitur lorem. Fusce malesuada, diam vel lacinia sodales, dolor metus dapibus massa, nec vulputate massa eros sit amet odio. Mauris in augue neque. Ut efficitur pulvinar magna, quis ultrices orci lacinia eu. Pellentesque cursus ligula eget tortor laoreet commodo. Proin pretium consectetur lacus, sodales finibus purus elementum egestas. Nulla sem metus, semper ut elit non, lobortis facilisis tellus. Aliquam in porttitor diam, in mollis ante. Praesent efficitur velit non augue varius, ut interdum sapien gravida. Duis finibus at quam in iaculis.
-      </p>
+      <p>The Friends of Branksome Chine is a volunteer-led organization that is dedicated to enhancing, improving, and conserving the beautiful Branksome Chine area for the enjoyment of residents and visitors. The Friends are working to prepare a comprehensive plan for the phased planting of new trees and shrubs, underplanting with native bulbs, and considering improvements to the stream, bridges, and footpaths. In addition, the Friends are committed to encouraging biodiversity and preserving the natural beauty of the Chine for future generations.</p>
+      <p>If you are passionate about the environment and want to make a positive impact in your community, then the Friends of Branksome Chine need you! By volunteering with the Friends, you can help to beautify the Chine, protect and preserve its natural surroundings, and contribute to the overall well-being of the community. Whether you have a green thumb, are interested in wildlife conservation, or simply want to lend a helping hand, the Friends have a variety of volunteer opportunities available to suit your skills and interests. Join the Friends today and make a difference in your community!</p>
     </div>
 
-    <div id="get-involved" class="section-container">
+    <div id="get-involved" class="section-container card-main">
       <h2>Get involved</h2>
       <p>For now, we need administrators to do XYZ. Contact Patrick at branksomechine@gmail.com if you're interested.</p>
-      <a href="#">Contact Patrick</a>
       <p>If you'd like to offer your help some other way, please enter your email in the form above to register for updates about FoBC.</p>
+      <div style="padding-top: 32px; text-align: center">
+        <a href="#" class="button-main">Contact Patrick</a>
+      </div>
     </div>
   </div>
 

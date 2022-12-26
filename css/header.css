@@ -1,0 +1,45 @@
+#header-img {
+  width: 70%;
+  border-radius: 8px;
+  height: 500px;
+  object-fit: cover;
+}
+
+#logo {
+  width: 200px;
+  border-radius: 50%;
+  /* box-shadow: 0 10px 20px #aaa; */
+}
+
+.header {
+  text-align: center;
+  color: black;
+  background-color: white;
+  height: 640px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: visible;
+  margin-bottom: 300px;
+}
+
+.header .section-container {
+  padding: 64px 30%;
+}
+
+.header h1 {
+  font-size: 44px;
+  line-height: 44px;
+  margin: 32px 0;
+}
+
+.header h3 {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 28px;
+  color: #999;
+  margin-bottom: 50px;
+}
