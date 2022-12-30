@@ -1,5 +1,5 @@
 #header-img {
-  width: 70%;
+  width: 60%;
   border-radius: 8px;
   height: 500px;
   object-fit: cover;
@@ -26,7 +26,7 @@
 }
 
 .header .section-container {
-  padding: 64px 30%;
+  padding: 64px 25%;
 }
 
 .header h1 {
@@ -47,6 +47,6 @@
 }
 
 .header h3 a {
-  color: #ff857a;
+  color: salmon;
   font-weight: 500;
 }
