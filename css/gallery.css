@@ -10,7 +10,11 @@
 }
 
 .gallery-item:last-child {
-  max-width: 300px;
+  max-width: 400px;
+}
+
+.gallery-item:first-child {
+  max-width: 100%;
 }
 
 .gallery-item {
