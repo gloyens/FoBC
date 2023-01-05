@@ -54,6 +54,16 @@ p {
   margin-top: 0;
 }
 
+
+#history-header {
+  margin-bottom: -200px;
+  height: 500px;
+}
+
+#history-header-img {
+  margin-top: -150px;
+}
+
 /* CONTAINERS */
 
 .margin-container {
@@ -225,10 +235,17 @@ p {
 
 /* RESPONSIVE */
 
-@media (min-width: 769px) and (max-width: 1200px) {
+
+@media (min-width: 769px) {
   #responsive-header {
     height: 760px;
     margin-bottom: 200px;
+  }
+
+  #history-header-img {
+    max-width: 400px; /* For landscape images, change this to 50%. */
+    height: auto;
+    margin-top: -240px;
   }
 }
 
@@ -266,7 +283,7 @@ p {
   }
 
   .footer {
-    height: 320px;
+    height: 360px;
   }
 
   .footer-container {
@@ -275,6 +292,7 @@ p {
 
   .img-history {
     width: 100%;
+    height: auto;
     border-radius: 0;
   }
 
