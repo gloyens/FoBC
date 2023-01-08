@@ -10,7 +10,7 @@ html {
   /* sticky footer */
   position: relative;
   min-height: 100%;
-  padding-bottom: 200px;
+  padding-bottom: 280px;
 }
 
 body {
@@ -167,7 +167,7 @@ p {
   background-color: #333;
   color: #888;
   padding: 20px;
-  height: 200px;
+  height: 280px;
   display: flex;
   align-items: center;
 
@@ -264,6 +264,10 @@ p {
 }
 
 @media (max-width: 768px) {
+  html {
+    padding-bottom: 400px;
+  }
+
   .margin-container {
     margin: 0 10%;
   }
@@ -283,7 +287,8 @@ p {
   }
 
   .footer {
-    height: 360px;
+    height: 500px;
+    padding: 0 32px;
   }
 
   .footer-container {
